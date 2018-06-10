@@ -1,0 +1,19 @@
+{
+  "name": "randsgenerator",
+  "version": "1.0.0",
+  "description": "generates random users (randomuser.me API)",
+  "main": "rands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-pop/randsGenerator.git"
+  },
+  "author": "Samuel Poplovitch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sam-pop/randsGenerator/issues"
+  },
+  "homepage": "https://github.com/sam-pop/randsGenerator#readme"
+}
