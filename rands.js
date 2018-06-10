@@ -3,7 +3,7 @@ randGenerator:
 --------------
 Generate a file populated with random user objects.
 Data from fetched from randomuser.me API.
-Check out - https://randomuser.me/documentation
+https://randomuser.me/documentation
 */
 
 const request = require('request');
