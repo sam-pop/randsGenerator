@@ -2,8 +2,10 @@
 randGenerator:
 --------------
 Generate a file populated with random user objects.
-Data from fetched from randomuser.me API.
+Data fetched from randomuser.me API.
 https://randomuser.me/documentation
+--------------
+Author: Samuel Poplovitch
 */
 
 const request = require('request');
