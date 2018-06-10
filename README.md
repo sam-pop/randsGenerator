@@ -1,6 +1,7 @@
 # randsGenerator
 
 This is a simple node "helper" app to generate a random user objects and log them into a `.txt` file.
+
 You can use this app to populate random users for a database or to create random user objects for manipulating / testing purposes.
 
 ## How to use
