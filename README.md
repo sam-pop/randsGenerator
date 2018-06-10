@@ -6,7 +6,8 @@ You can use this app to populate random users for a database or to create random
 
 ## How to use
 run `node rands.js` to create a `rands.txt` file.
-you can change / remove / add parameters for the users from the predefined parameters or add more from the randuser.me [API docs](https://randomuser.me/documentation)
+
+You can change / remove / add properties for the users from the predefined parameters in the app or use the  randuser.me [API docs](https://randomuser.me/documentation) for more info.
 
 ## What i used
-This simple tool was build usign nodeJS and the [randuser.me](https://randomuser.me/) API.
+This simple tool was build using nodeJS and the [randuser.me](https://randomuser.me/) API.
