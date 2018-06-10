@@ -1,3 +1,11 @@
+/*
+randGenerator:
+--------------
+Generate a file populated with random user objects.
+Data from fetched from randomuser.me API.
+Check out - https://randomuser.me/documentation
+*/
+
 const request = require('request');
 const fs = require("fs");
 
@@ -41,9 +49,9 @@ function log(str) {
     });
 }
 
-// logs name:'value' pairs to file
-function logProp(name, value) {
-    fs.appendFileSync("./rands.txt", (name + ": '" + value + "',") + '\r\n', (error) => {
+// logs key:'value' pairs to file
+function logProp(key, value) {
+    fs.appendFileSync("./rands.txt", (key + ": '" + value + "',") + '\r\n', (error) => {
         if (error) throw error;
     });
 }
