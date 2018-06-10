@@ -12,4 +12,4 @@ You can change / remove / add properties for the users from the predefined param
 
 ## What I used
 
-This simple tool was build using nodeJS and the [randuser.me](https://randomuser.me/) API.
+This simple tool was build using [node.JS](https://nodejs.org/) and the [randuser.me](https://randomuser.me/) API.
