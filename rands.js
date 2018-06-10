@@ -18,7 +18,7 @@ const RESULTS = 100; // num of results to log
 request('https://randomuser.me/api/?nat=' + NATIONALITY + '&results=' + RESULTS, (error, response, body) => {
     let thisBody = JSON.parse(body).results;
     for (let i of thisBody) {
-        // some of the response fields use can use
+        // some of the response fields we can use
         let name = i.name.first + " " + i.name.last;
         let photo = i.picture.large;
         let gender = i.gender;
