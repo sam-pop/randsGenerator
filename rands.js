@@ -1,5 +1,5 @@
 /*
-randGenerator:
+randsGenerator:
 --------------
 Generate a file populated with random user objects.
 Data fetched from randomuser.me API.
